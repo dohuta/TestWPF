@@ -1,0 +1,192 @@
+﻿<Controls:MetroWindow x:Class="PM_QLPM.View.ChiTietTraCuuWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+					  xmlns:local="clr-namespace:PM_QLPM.View"
+					  xmlns:p="clr-namespace:PM_QLPM.Properties"
+                      xmlns:viewModel="clr-namespace:PM_QLPM.ViewModel"
+				      xmlns:core="clr-namespace:PM_QLPM.Core.Converters"
+					  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+					  xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      
+                      Background="{StaticResource MaterialDesignPaper}"
+					  BorderBrush="{DynamicResource AccentColorBrush}"
+                      FontFamily="{StaticResource MaterialDesignFont}"
+                                            
+                      mc:Ignorable="d"
+                      Title="ChiTietTraCuuWindow" Height="600" Width="800"
+                      WindowStartupLocation="CenterScreen"
+					  ShowInTaskbar="True"
+					  SaveWindowPosition="False"
+					  ShowTitleBar="False"
+					  ShowMinButton="False"
+					  ShowMaxRestoreButton="False"
+					  ShowCloseButton="True"
+                      ResizeMode="NoResize"
+					  AllowDrop="False"
+					  RenderOptions.BitmapScalingMode="HighQuality"
+					  RenderOptions.CachingHint="Cache"
+					  RenderOptions.ClearTypeHint="Enabled">
+
+    <Controls:MetroWindow.DataContext>
+        <viewModel:ChiTietTraCuuWindow_ViewModel/>
+    </Controls:MetroWindow.DataContext>
+
+    <Controls:MetroWindow.Resources>
+        <core:GenreToStringConverter x:Key="GenreToStringConverter"/>
+        <core:DiseaseIdToStringConverter x:Key="DiseaseIdToStringConverter"/>
+    </Controls:MetroWindow.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="175"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" FontSize="17" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center">TIỂU SỬ BỆNH ÁN</TextBlock>
+
+        <ScrollViewer Grid.Column="0" Grid.Row="1"
+                      HorizontalScrollBarVisibility="Disabled"
+                      VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical">
+                <Label Content="Danh sách các lần khám bệnh" HorizontalAlignment="Center"/>
+                <ListBox x:Name="listbox_DSPhieuKham" Margin="0 5 0 0"
+                         SelectionMode="Single"
+                         ItemsSource="{Binding ViewSource}" 
+                         SelectedItem="{Binding SelectedItem}" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Height="39">
+                                <TextBlock FontFamily="SegoeUI" FontWeight="Regular"
+                                           Margin="10 0 0 0" VerticalAlignment="Center"
+                                           Text="{Binding PhieuKham.NgayKham}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Border BorderBrush="#BDBDBD" BorderThickness="1" CornerRadius="10" 
+                Grid.Column="1" Grid.Row="1" Margin="0 0 10 10" >
+            <Grid>
+                <Border VerticalAlignment="Top" Margin="0 15 0 0" Height="50" HorizontalAlignment="Center" 
+                    BorderBrush="#BDBDBD" BorderThickness="1" CornerRadius="7">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20 0">
+                        <Button x:Name="btn_InPK" FontSize="15" Margin="0,10,0,10" Width="170"
+                                ToolTip="In danh sách khám bệnh"
+                                Style="{StaticResource MaterialDesignFlatButton}" Foreground="#673AB7" Height="Auto"
+                                Command="{Binding CM_PrintClicked}" >
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <materialDesign:PackIcon Kind="Printer" Height="20" Width="20" />
+                                <TextBlock Text="IN PHIẾU KHÁM" Margin="5 0 0 0"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="btn_InHD" FontSize="15" Margin="10,10,0,10" Width="170"
+                                ToolTip="In danh sách khám bệnh"
+                                Style="{StaticResource MaterialDesignFlatButton}" Foreground="#673AB7" Height="Auto"
+                                Command="{Binding CM_PrintClicked}" >
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <materialDesign:PackIcon Kind="Printer" Height="20" Width="20" />
+                                <TextBlock Text="IN HOÁ ĐƠN" Margin="5 0 0 0"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Border>
+                <Grid VerticalAlignment="Top" Margin="0 85 0 0" Height="170" Grid.Column="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Margin="25 0 5 0">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Mã bệnh nhân: "/>
+                            <Label Content="{Binding SelectedItem.PhieuKham.Ma_BenhNhan}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Mã phiếu khám: "/>
+                            <Label Content="{Binding SelectedItem.PhieuKham.Ma_PhieuKham}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Mã hoá đơn: "/>
+                            <Label Content="{Binding SelectedItem.HoaDon.Ma_HoaDon}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Ngày khám: "/>
+                            <Label Content="{Binding SelectedItem.PhieuKham.NgayKham, StringFormat=\{0:dd/MM/yyyy\}}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Họ tên: "/>
+                            <Label Content="{Binding SelectedItem.PhieuKham.HoTen}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Giới tính: "/>
+                            <Label Content="{Binding SelectedItem.PhieuKham.GioiTinh, Converter={StaticResource GenreToStringConverter}}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Địa chỉ: "/>
+                            <Label Content="{Binding SelectedItem.PhieuKham.DiaChi}" FontWeight="SemiBold" />
+                        </StackPanel>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Margin="5 0 10 0">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Triệu chứng bệnh: "/>
+                            <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                                <TextBlock Text="{Binding SelectedItem.PhieuKham.TrieuChung}"
+                                           TextWrapping="Wrap" Height="48" Width="188" FontWeight="SemiBold" />
+                            </ScrollViewer>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Dự đoán bệnh: "/>
+                            <Label Content="{Binding SelectedItem.PhieuKham.Ma_Benh, Converter={StaticResource DiseaseIdToStringConverter}}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Tiền khám: "/>
+                            <Label Content="{Binding SelectedItem.HoaDon.TienKham}" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Tiền thuốc: "/>
+                            <Label Content="{Binding SelectedItem.HoaDon.TienThuoc}" FontWeight="SemiBold" />
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+
+                <DataGrid x:Name="gridView_CTPhieuKham"
+                          HorizontalAlignment="Center"
+                          materialDesign:DataGridAssist.CellPadding="8 8 8 8"
+	                      materialDesign:DataGridAssist.ColumnHeaderPadding="8"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="True"
+                          SelectionMode="Single"
+                          SelectionUnit="FullRow"
+                          IsReadOnly="True"
+	                      CanUserSortColumns="True"
+                          Background="Transparent"
+	                      ItemsSource="{Binding SelectedItem.PhieuKham.DONTHUOC}" Width="560" Margin="28,260,29,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding TenThuoc}"
+                                            Header="Tên thuốc"/>
+                        <DataGridTextColumn Binding="{Binding TenDonVi}"
+                                            Header="Đơn vị"/>
+                        <DataGridTextColumn Binding="{Binding TenCachDung}"
+                                            Header="Cách dùng"/>
+                        <DataGridTextColumn Binding="{Binding SoLuong}"
+                                            Header="Số lượng"/>
+                        <DataGridTextColumn Binding="{Binding DonGia}"
+                                            Header="Đơn giá"/>
+                        <DataGridTextColumn Binding="{Binding GhiChu}"
+                                            Header="Ghi chú"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+    </Grid>
+</Controls:MetroWindow>

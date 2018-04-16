@@ -1,0 +1,206 @@
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\DB_QLPM.mdf
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\DB_QLPM_log.ldf
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.exe.config
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.exe
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.pdb
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.dll
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.dll
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignColors.dll
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.MahApps.dll
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.xml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.pdb
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.xml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignColors.pdb
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\Home.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_DSKhamBenh.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\LoginScreen.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\MainWindow.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemBenhNhan.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemHoSoBenhNhan.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\App.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_Content.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_MarkupCompile.cache
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_MarkupCompile.lref
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\App.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\Home.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_DSKhamBenh.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\LoginScreen.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\MainWindow.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemBenhNhan.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemHoSoBenhNhan.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.g.resources
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.Properties.Resources.resources
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csproj.GenerateResource.Cache
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csproj.CoreCompileInputs.cache
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.exe
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.pdb
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_PhieuKhamBenh.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_PhieuKhamBenh.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csprojResolveAssemblyReference.cache
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_TraCuu.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_TraCuu.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\DSPhieuKhamTheoBenhNhanWindow.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\DSPhieuKhamTheoBenhNhanWindow.baml
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_HoaDon.g.cs
+C:\Users\HUYNHDOHUYTAP\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_HoaDon.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\Dialog\MessageDialog.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\Home.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoDoanhThu.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoSuDungThuoc.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_DSKhamBenh.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\LoginScreen.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\MainWindow.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_HoaDon.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_PhieuKhamBenh.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemBenhNhan.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_TraCuu.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\App.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_Content.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_MarkupCompile.cache
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_MarkupCompile.lref
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\DB_QLPM.mdf
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\DB_QLPM_log.ldf
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.exe.config
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.exe
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.pdb
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.Shared.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.SqlServer.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignColors.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.MahApps.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\System.Windows.Interactivity.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\stdole.dll
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.xml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.SqlServer.xml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.pdb
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.xml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignColors.pdb
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\App.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\Dialog\MessageDialog.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\Home.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoDoanhThu.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoSuDungThuoc.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_DSKhamBenh.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\LoginScreen.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\MainWindow.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_HoaDon.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_PhieuKhamBenh.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemBenhNhan.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_TraCuu.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.g.resources
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.Properties.Resources.resources
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csproj.GenerateResource.Cache
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csproj.CoreCompileInputs.cache
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.exe
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.pdb
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\ChiTietTraCuuWindow.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\ChiTietTraCuuWindow.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_AccountManagement.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_AccountManagement.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemSuaThuoc.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemSuaThuoc.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_QuanLyThuoc.g.cs
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_QuanLyThuoc.baml
+F:\Desktop New\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csprojResolveAssemblyReference.cache
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\DB_QLPM.mdf
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\DB_QLPM_log.ldf
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.exe.config
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.exe
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\PM_QLPM.pdb
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.SqlServer.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignColors.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.MahApps.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\System.Windows.Interactivity.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\stdole.dll
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.xml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\EntityFramework.SqlServer.xml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.pdb
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MahApps.Metro.xml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignColors.pdb
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csprojResolveAssemblyReference.cache
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\Dialog\MessageDialog.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\ChiTietTraCuuWindow.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\Home.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_AccountManagement.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoDoanhThu.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoSuDungThuoc.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_DSKhamBenh.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\LoginScreen.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\MainWindow.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_HoaDon.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_PhieuKhamBenh.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_QuanLyThuoc.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemBenhNhan.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemSuaThuoc.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_TraCuu.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\App.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_Content.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_MarkupCompile.cache
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM_MarkupCompile.lref
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\App.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\Dialog\MessageDialog.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\ChiTietTraCuuWindow.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\Home.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_AccountManagement.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoDoanhThu.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_BaoCaoSuDungThuoc.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_DSKhamBenh.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\LoginScreen.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\MainWindow.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_HoaDon.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_PhieuKhamBenh.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_QuanLyThuoc.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemBenhNhan.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_ThemSuaThuoc.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\View\View_TraCuu.baml
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.g.resources
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.Properties.Resources.resources
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csproj.GenerateResource.cache
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csproj.CoreCompileInputs.cache
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.csproj.CopyComplete
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.exe
+F:\Desktop\SoftwareEngineering\PM_QLPM\PM_QLPM\obj\Debug\PM_QLPM.pdb

@@ -1,0 +1,181 @@
+﻿<Controls:MetroWindow x:Class="PM_QLPM.View.MainWindow"
+                      x:Name="mainWindow"
+					  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+					  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+					  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+					  xmlns:local="clr-namespace:PM_QLPM.View"
+					  xmlns:p="clr-namespace:PM_QLPM.Properties"
+                      xmlns:viewModel="clr-namespace:PM_QLPM.ViewModel"
+											
+					  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+					  xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+					  
+					  Background="{StaticResource MaterialDesignPaper}"
+					  BorderBrush="{DynamicResource AccentColorBrush}"
+                      FontFamily="{StaticResource MaterialDesignFont}"
+											
+					  mc:Ignorable="d"
+					  Title="MainWindow"
+					  Height="{Binding Source={x:Static p:Settings.Default}, Path=Height, Mode=TwoWay}"
+					  Width="{Binding Source={x:Static p:Settings.Default}, Path=Width, Mode=TwoWay}"
+					  MinHeight="600" MinWidth="1000"
+					  WindowStartupLocation="CenterScreen"
+					  ShowInTaskbar="True"
+					  SaveWindowPosition="True"
+					  ShowTitleBar="False"
+					  ShowMinButton="True"
+					  ShowMaxRestoreButton="True"
+					  ShowCloseButton="True"
+					  AllowDrop="False"
+					  RenderOptions.BitmapScalingMode="HighQuality"
+					  RenderOptions.CachingHint="Cache"
+					  RenderOptions.ClearTypeHint="Enabled"
+					  >
+    <Controls:MetroWindow.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Shadows.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ToggleButton.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Controls:MetroWindow.Resources>
+
+    <Controls:MetroWindow.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Controls:MetroWindow.DataContext>
+
+    <materialDesign:DialogHost Identifier="RootDialog">
+        <materialDesign:DrawerHost IsLeftDrawerOpen="{Binding ElementName=MenuToggleButton, Path=IsChecked}" Grid.RowSpan="2">
+            <materialDesign:DrawerHost.LeftDrawerContent>
+                <StackPanel  MinWidth="260" Background="#616161">
+                    <Grid Height="170" DockPanel.Dock="Top">
+
+                        <!--<Grid.Background>
+						<ImageBrush ImageSource="..//..//Resources/Images/drawerBG.jpg" Stretch="UniformToFill"/>
+					</Grid.Background>-->
+
+                        <Image Height="170" Width="260" Source="..//..//Resources/Images/drawerBG.jpg" Stretch="UniformToFill">
+                            <!--<Image.Effect>
+                            <BlurEffect Radius="10" RenderingBias="Quality"/>
+                        </Image.Effect>-->
+                        </Image>
+
+                        <ToggleButton Style="{StaticResource MaterialDesignHamburgerToggleButton}" Foreground="White"
+									HorizontalAlignment="Right" VerticalAlignment="Top" Margin="16"
+									IsChecked="{Binding ElementName=MenuToggleButton, Path=IsChecked, Mode=TwoWay}" />
+
+                        <Ellipse Margin="20,60,0,0" HorizontalAlignment="Left" Width="60" Height="60" VerticalAlignment="Top">
+                            <Ellipse.Effect>
+                                <DropShadowEffect Direction="270" ShadowDepth="6" BlurRadius="8" Opacity="0.8"/>
+                            </Ellipse.Effect>
+                            <Ellipse.Fill>
+                                <ImageBrush ImageSource="..//..//Resources/Temp/user.jpg"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+
+                        <Label Content="{Binding NhanVien.HoTen}"
+						       FontSize="15"
+						       FontWeight="DemiBold"
+						       HorizontalContentAlignment="Center"
+						       VerticalContentAlignment="Center"
+                               Foreground="White"
+						       Margin="0,120,0,0" Height="35" VerticalAlignment="Top">
+                            <Label.Effect>
+                                <DropShadowEffect BlurRadius="6" Direction="270" ShadowDepth="5"/>
+                            </Label.Effect>
+                        </Label>
+                    </Grid>
+
+                    <Button Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White"
+                            Content="Đăng xuất" FontSize="15" Margin="0 10 0 0" Height="50"
+                            FontFamily="SegoeUI" FontWeight="Regular"
+                            Command="{Binding CM_LogOut}"
+                            CommandParameter="{Binding ElementName=mainWindow}"/>
+                    <!--<Button Background="Transparent" BorderBrush="Transparent" BorderThickness="0" Foreground="White"
+                        Content="Thiết đặt tài khoản" FontSize="15" Height="50"
+                        FontFamily="SegoeUI" FontWeight="Regular"/>
+
+                    <Separator Margin="0 10 0 10" Height="1" Width="212"/>
+
+                    <TextBlock Text="Ngôn ngữ" FontSize="15" Foreground="White"
+                           FontFamily="SegoeUI" FontWeight="Regular"
+                           TextAlignment="Center" Margin="0 5 0 10"/>
+                    <RadioButton Content="Tiếng Việt" FontSize="15" VerticalContentAlignment="Center"
+                             FontFamily="SegoeUI" FontWeight="Regular" Foreground="White"
+                             Style="{StaticResource MaterialDesignRadioButton}" Margin="75 10 0 10"/>
+                    <RadioButton Content="Tiếng Anh" FontSize="15" VerticalContentAlignment="Center" 
+                             FontFamily="SegoeUI" FontWeight="Regular" Foreground="White"
+                             Style="{StaticResource MaterialDesignRadioButton}" Margin="75 10 0 10"/>-->
+                    <!--
+                <Separator Margin="0 10 0 10" Height="1" Width="212"/>
+
+                <Button Background="Transparent" BorderBrush="Transparent" BorderThickness="0" 
+                        Content="Thiết đặt phần mềm" FontSize="15" Height="50"/>
+                <Button Background="Transparent" BorderBrush="Transparent" BorderThickness="0" 
+                        Content="Về phần mềm" FontSize="15" Height="50"/>
+                -->
+                </StackPanel>
+            </materialDesign:DrawerHost.LeftDrawerContent>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="270"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+
+
+                <TextBlock Margin="10,15,80,15" Text="{Binding Source={x:Static p:Settings.Default}, Path=Title, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" FontSize="25" FontWeight="DemiBold"
+                       TextAlignment="Center" VerticalAlignment="Center"
+	                   Style="{StaticResource MaterialDesignDisplay4TextBlock}" Background="Transparent"
+                       MouseLeftButtonDown="DragMove"/>
+
+                <Grid Grid.RowSpan="2" Grid.Column="0" MouseLeftButtonDown="DragMove">
+                    <Rectangle Fill="Black" Opacity="0.8"/>
+                    <Image Source="..//..//Resources/Images/sidebarBG.jpg" Stretch="UniformToFill" Margin="-30,-30,0,-30" Opacity="0.6">
+                        <Image.Effect>
+                            <BlurEffect Radius="30" RenderingBias="Quality"/>
+                        </Image.Effect>
+                    </Image>
+
+
+                    <ToggleButton Style="{StaticResource MaterialDesignHamburgerToggleButton}" IsChecked="False"
+					  x:Name="MenuToggleButton" Margin="18,16,0,0" Height="37" Foreground="White"
+					  VerticalAlignment="Top" Width="37" HorizontalAlignment="Left"/>
+
+
+                    <ListBox x:Name="sidebar" SelectedIndex="0"
+                         ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                         Margin="0,69,0,0"
+                         SelectionMode="Single"
+                         ItemsSource="{Binding ListItem}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Height="39">
+                                    <Image Source="{Binding Icon}" Margin="10 0 10 0" Width="30"/>
+                                    <TextBlock FontSize="16" FontFamily="SegoeUI" FontWeight="Regular"
+                                           Margin="5 0 0 0" VerticalAlignment="Center" Foreground="White" 
+                                           Text="{Binding Name}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+
+                    </ListBox>
+                </Grid>
+
+                <ScrollViewer Grid.Column="1" Grid.Row="1" Margin="0 0 0 0"
+                          HorizontalScrollBarVisibility="{Binding ElementName=sidebar, Path=SelectedItem.HorizontalScrollbarVisibilityRequirement}"
+                          VerticalScrollBarVisibility="{Binding ElementName=sidebar, Path=SelectedItem.VerticalScrollbarVisibilityRequirement}"
+                          Padding="0">
+                    <ContentControl Content="{Binding ElementName=sidebar, Path=SelectedItem.Content}" />
+                </ScrollViewer>
+            </Grid>
+        </materialDesign:DrawerHost>
+    </materialDesign:DialogHost>
+</Controls:MetroWindow>

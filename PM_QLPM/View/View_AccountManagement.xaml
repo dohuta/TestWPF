@@ -1,0 +1,119 @@
+﻿<UserControl x:Class="PM_QLPM.View.View_AccountManagement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:core="clr-namespace:PM_QLPM.Core.Converters"
+             xmlns:viewModel="clr-namespace:PM_QLPM.ViewModel"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:PM_QLPM.View"
+             mc:Ignorable="d" >
+
+    <UserControl.Resources>
+        <core:DeleteUserVisibility x:Key="DeleteUserVisibility"/>
+    </UserControl.Resources>
+
+    <materialDesign:DialogHost DialogClosing="DialogHost_DialogClosing">
+        <materialDesign:DialogHost.DialogContent>
+            <StackPanel  Margin="16">
+
+                <TextBlock Margin="0 10 0 0" FontSize="15" TextAlignment="Center">Thêm người dùng</TextBlock>
+                <TextBox x:Name="txt_Hoten" Margin="0 15 0 0" FontSize="14"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+				         materialDesign:HintAssist.Hint="Họ tên:"
+				         HorizontalAlignment="Stretch" />
+                <TextBox x:Name="txt_Username" Margin="0 15 0 0" FontSize="14"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+				         materialDesign:HintAssist.Hint="Username:"
+				         HorizontalAlignment="Stretch" />
+                <PasswordBox x:Name="pwb_Password" Margin="0 15 0 0" FontSize="14"
+				             materialDesign:HintAssist.Hint="Mật khẩu:"
+				             HorizontalAlignment="Stretch" />
+                <TextBox x:Name="txt_VaiTro" Margin="0,10,0,0" FontSize="14"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+				         materialDesign:HintAssist.Hint="Vai trò (0-2):"
+				         HorizontalAlignment="Stretch" />
+
+
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="0,10,0,0">
+                    <Button Margin="0,8,8,0"
+					        Command="materialDesign:DialogHost.CloseDialogCommand"
+					        IsDefault="True"
+					        Style="{StaticResource MaterialDesignFlatButton}">
+                        <Button.CommandParameter>
+                            <system:Boolean xmlns:system="clr-namespace:System;assembly=mscorlib">True</system:Boolean>
+                        </Button.CommandParameter>
+                        THÊM
+                    </Button>
+                    <Button Margin="0,8,8,0"
+					        Command="materialDesign:DialogHost.CloseDialogCommand"
+					        IsCancel="True"
+					        Style="{StaticResource MaterialDesignFlatButton}">
+                        <Button.CommandParameter>
+                            <system:Boolean xmlns:system="clr-namespace:System;assembly=mscorlib">False</system:Boolean>
+                        </Button.CommandParameter>
+                        BỎ QUA
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </materialDesign:DialogHost.DialogContent>
+
+        <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                  VerticalScrollBarVisibility="Auto" >
+            <Grid>
+                <TextBlock Text="QUẢN LÝ NGƯỜI DÙNG" FontSize="20"
+                       TextAlignment="Center" Width="800" Height="25"
+                       VerticalAlignment="Top" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
+
+                <Border VerticalAlignment="Top" Margin="0 40 0 0" Height="50" HorizontalAlignment="Center"
+                    BorderBrush="#BDBDBD" BorderThickness="1" CornerRadius="7">
+                    <Grid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10 0">
+                            <Button x:Name="btn_Them" FontSize="15" Margin="10,10,0,10" Width="100"
+                                ToolTip="Thêm mới người dùng"
+                                Style="{StaticResource MaterialDesignFlatButton}" Foreground="#673AB7" Height="Auto"
+                                Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}" >
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <materialDesign:PackIcon Kind="Plus" Height="20" Width="20" />
+                                    <TextBlock Text="THÊM" Margin="5 0 0 0"/>
+                                </StackPanel>
+                            </Button>
+                            <Button x:Name="btn_Xoa" FontSize="15" Margin="10,10,0,10" Width="100"
+                                ToolTip="Xoá người dùng"
+                                Style="{StaticResource MaterialDesignFlatButton}" Foreground="#673AB7" Height="Auto"
+                                Command="{Binding CM_RemoveClicked}" 
+                                CommandParameter="{Binding ElementName=listView_DanhSachKhamBenh, Path=SelectedItems}">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <materialDesign:PackIcon Kind="Minus" Height="20" Width="20" />
+                                    <TextBlock Text="XOÁ" Margin="5 0 0 0"/>
+                                </StackPanel>
+                            </Button>
+                            <!--<Button x:Name="btn_Sua" FontSize="15" Margin="10,10,0,10" Width="100"
+                                ToolTip="Sửa thông tin"
+                                Style="{StaticResource MaterialDesignFlatButton}" Foreground="#673AB7" Height="Auto"
+                                Command="{Binding CM_PrintClicked}" >
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <materialDesign:PackIcon Kind="Pencil" Height="20" Width="20" />
+                                    <TextBlock Text="SỬA" Margin="5 0 0 0"/>
+                                </StackPanel>
+                            </Button>-->
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <ListView  Margin="50,95,50,0" SelectionMode="Single"
+                       ItemsSource="{Binding ViewSource}" 
+                       SelectedItem="{Binding SelectedItem}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding Ma_NV}" Header="Mã người dùng" Width="130" />
+                            <GridViewColumn DisplayMemberBinding="{Binding HoTen}" Header="Họ tên" Width="150" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Username}" Header="Username" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Role}" Header="Vai trò" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </ScrollViewer>
+    </materialDesign:DialogHost>
+</UserControl>

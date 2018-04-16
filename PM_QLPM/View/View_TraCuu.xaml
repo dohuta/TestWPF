@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="PM_QLPM.View.View_TraCuu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:core="clr-namespace:PM_QLPM.Core.Converters"
+             xmlns:viewModel="clr-namespace:PM_QLPM.ViewModel"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:PM_QLPM.View"
+             mc:Ignorable="d" >
+
+    <UserControl.Resources>
+        <core:RemovingPillConverter x:Key="RemovingPillConverter" />
+        <core:DiseaseConverter x:Key="DiseaseConverter" />
+    </UserControl.Resources>
+    
+    <UserControl.DataContext>
+        <viewModel:View_TraCuu_ViewModel/>
+    </UserControl.DataContext>
+
+    <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                  VerticalScrollBarVisibility="Auto" >
+        <Grid>
+            <TextBlock Text="TRA CỨU" FontSize="20"
+                       TextAlignment="Center" Width="800" Height="25"
+                       VerticalAlignment="Top" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
+
+            <Border BorderBrush="#BDBDBD" BorderThickness="1" CornerRadius="10"
+                    Margin="0 70 0 0" Padding="30 15 30 15"
+                    VerticalAlignment="Top" HorizontalAlignment="Center">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+                        <TextBox Width="350" FontFamily="SegoeUI" FontSize="15"
+                                 ToolTip="Nhập thông tin để tra cứu bệnh nhân&#10;thông tin càng chi tiết kết quả càng chính xác"
+	                             Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                                 Text="{Binding SearchText}">
+                            <materialDesign:HintAssist.Hint >
+                                <StackPanel Orientation="Horizontal">
+                                    <materialDesign:PackIcon Kind="Magnify" />
+                                    <TextBlock>Tra cứu bệnh nhân</TextBlock>
+                                </StackPanel>
+                            </materialDesign:HintAssist.Hint>
+                        </TextBox>
+
+                        <Button ToolTip="Tìm kết quá khớp với các thông tin đã nhập" Margin="10 0 0 0"
+			                    Command="{Binding CM_Search}">
+                            <StackPanel Orientation="Horizontal" >
+                                <materialDesign:PackIcon Kind="Magnify" VerticalAlignment="Center"/>
+                                <TextBlock Text="TÌM" Margin="5 0 0 0"/>
+                            </StackPanel>
+                        </Button>
+
+                        <!--<Button ToolTip="Hiện thông tin hướng dẫn cách tra cứu" Margin="5 0 0 0"
+                                Style="{StaticResource MaterialDesignFlatButton}">
+                            <StackPanel Orientation="Horizontal" >
+                                <materialDesign:PackIcon Kind="Help" VerticalAlignment="Center"/>
+                                <TextBlock Text="HƯỚNG DẪN" Margin="5 0 0 0"/>
+                            </StackPanel>
+                        </Button>-->
+                    </StackPanel>
+                    <!--<StackPanel Orientation="Horizontal" Margin="0 5 0 0">
+                            <ComboBox x:Name="cbb_Benh"
+                                      MinWidth="288" FontSize="15"
+	                                  VerticalAlignment="Bottom"
+	                                  materialDesign:HintAssist.Hint="Mã bệnh - Tên bệnh"
+                                      ItemsSource="{Binding DS_Benh}"
+                                      DisplayMemberPath="{Binding TenBenh}" >
+                                <ComboBox.SelectedItem>
+                                    <MultiBinding Converter="{StaticResource DiseaseConverter}" >
+                                        <Binding ElementName="listbox_DSPhieuKham" Path="SelectedItem.Ma_Benh" />
+                                        <Binding ElementName="listbox_DSPhieuKham" Path="SelectedItem.TenBenh" />
+                                    </MultiBinding>
+                                </ComboBox.SelectedItem>
+                                <ComboBox.SelectedValue>
+                                    <MultiBinding Converter="{StaticResource DiseaseConverter}" >
+                                        <Binding ElementName="listbox_DSPhieuKham" Path="SelectedItem.Ma_Benh" />
+                                        <Binding ElementName="listbox_DSPhieuKham" Path="SelectedItem.TenBenh" />
+                                    </MultiBinding>
+                                </ComboBox.SelectedValue>
+                            </ComboBox>
+                        </StackPanel>-->
+                </StackPanel>
+            </Border>
+
+
+            <ListView  Margin="0 170 0 0" SelectionMode="Single"
+                       ItemsSource="{Binding ViewSource}" 
+                       SelectedItem="{Binding SelectedItem}"
+                       MouseDoubleClick="ListView_MouseDoubleClick">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding Ma_BenhNhan}" Header="Mã bệnh nhân" Width="125"/>
+                        <GridViewColumn DisplayMemberBinding="{Binding HoTen}" Header="Họ tên" Width="210"/>
+                        <GridViewColumn DisplayMemberBinding="{Binding NgayKham, StringFormat=\{0:dd/MM/yyyy\}}" Header="Ngày khám" Width="130"/>
+                        <GridViewColumn DisplayMemberBinding="{Binding TenBenh}" Header="Loại bệnh" Width="130"/>
+                        <GridViewColumn DisplayMemberBinding="{Binding TrieuChung}" Header="Triệu chứng"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

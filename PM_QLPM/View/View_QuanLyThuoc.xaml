@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="PM_QLPM.View.View_QuanLyThuoc"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:core="clr-namespace:PM_QLPM.Core.Converters"
+             xmlns:viewModel="clr-namespace:PM_QLPM.ViewModel"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:PM_QLPM.View"
+             mc:Ignorable="d" >
+    <ScrollViewer HorizontalScrollBarVisibility="Auto"
+                  VerticalScrollBarVisibility="Auto" >
+        <Grid>
+            <TextBlock Text="QUẢN LÝ THUỐC" FontSize="20"
+                       TextAlignment="Center" Width="800" Height="25"
+                       VerticalAlignment="Top" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

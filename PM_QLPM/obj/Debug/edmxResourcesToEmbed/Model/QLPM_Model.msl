@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_QLPMModelStoreContainer" CdmEntityContainer="DB_QLPMEntities">
+    <EntitySetMapping Name="BENHs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.BENH">
+        <MappingFragment StoreEntitySet="BENH">
+          <ScalarProperty Name="Ma_Benh" ColumnName="Ma_Benh" />
+          <ScalarProperty Name="TenBenh" ColumnName="TenBenh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CACHDUNGs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.CACHDUNG">
+        <MappingFragment StoreEntitySet="CACHDUNG">
+          <ScalarProperty Name="Ma_CachDung" ColumnName="Ma_CachDung" />
+          <ScalarProperty Name="TenCachDung" ColumnName="TenCachDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_PHIEUKHAMBENH">
+      <EntityTypeMapping TypeName="DB_QLPMModel.CT_PHIEUKHAMBENH">
+        <MappingFragment StoreEntitySet="CT_PHIEUKHAMBENH">
+          <ScalarProperty Name="Ma_PhieuKham" ColumnName="Ma_PhieuKham" />
+          <ScalarProperty Name="Ma_Thuoc" ColumnName="Ma_Thuoc" />
+          <ScalarProperty Name="Ma_CachDung" ColumnName="Ma_CachDung" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_PHIEUNHAPTHUOC">
+      <EntityTypeMapping TypeName="DB_QLPMModel.CT_PHIEUNHAPTHUOC">
+        <MappingFragment StoreEntitySet="CT_PHIEUNHAPTHUOC">
+          <ScalarProperty Name="Ma_PhieuNhap" ColumnName="Ma_PhieuNhap" />
+          <ScalarProperty Name="Ma_Thuoc" ColumnName="Ma_Thuoc" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DONVIs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.DONVI">
+        <MappingFragment StoreEntitySet="DONVI">
+          <ScalarProperty Name="Ma_DonVi" ColumnName="Ma_DonVi" />
+          <ScalarProperty Name="TenDonVi" ColumnName="TenDonVi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="Ma_HoaDon" ColumnName="Ma_HoaDon" />
+          <ScalarProperty Name="Ma_PhieuKham" ColumnName="Ma_PhieuKham" />
+          <ScalarProperty Name="TienKham" ColumnName="TienKham" />
+          <ScalarProperty Name="TienThuoc" ColumnName="TienThuoc" />
+          <ScalarProperty Name="Ma_NV" ColumnName="Ma_NV" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOSOBENHNHANs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.HOSOBENHNHAN">
+        <MappingFragment StoreEntitySet="HOSOBENHNHAN">
+          <ScalarProperty Name="Ma_BenhNhan" ColumnName="Ma_BenhNhan" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NamSinh" ColumnName="NamSinh" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="Ma_NV" ColumnName="Ma_NV" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUKHAMBENHs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.PHIEUKHAMBENH">
+        <MappingFragment StoreEntitySet="PHIEUKHAMBENH">
+          <ScalarProperty Name="Ma_PhieuKham" ColumnName="Ma_PhieuKham" />
+          <ScalarProperty Name="Ma_BenhNhan" ColumnName="Ma_BenhNhan" />
+          <ScalarProperty Name="NgayKham" ColumnName="NgayKham" />
+          <ScalarProperty Name="TrieuChung" ColumnName="TrieuChung" />
+          <ScalarProperty Name="Ma_Benh" ColumnName="Ma_Benh" />
+          <ScalarProperty Name="Ma_NV" ColumnName="Ma_NV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PHIEUNHAPTHUOCs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.PHIEUNHAPTHUOC">
+        <MappingFragment StoreEntitySet="PHIEUNHAPTHUOC">
+          <ScalarProperty Name="Ma_PhieuNhap" ColumnName="Ma_PhieuNhap" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="Ma_NV" ColumnName="Ma_NV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THUOCs">
+      <EntityTypeMapping TypeName="DB_QLPMModel.THUOC">
+        <MappingFragment StoreEntitySet="THUOC">
+          <ScalarProperty Name="Ma_Thuoc" ColumnName="Ma_Thuoc" />
+          <ScalarProperty Name="TenThuoc" ColumnName="TenThuoc" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="Ma_DonVi" ColumnName="Ma_DonVi" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="THAMSOes">
+      <EntityTypeMapping TypeName="DB_QLPMModel.THAMSO">
+        <MappingFragment StoreEntitySet="THAMSO">
+          <ScalarProperty Name="SLBenhNhan" ColumnName="SLBenhNhan" />
+          <ScalarProperty Name="TienKham" ColumnName="TienKham" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
